@@ -58,7 +58,7 @@ public class Einmalige_Werte_Benchmark {
             List<List<String>> Spaltendaten = new ArrayList<>();   
              // Erstellung einer Liste von Listen, um die Spalteninhalte zu speichern
 
-            // Erstellung einer Leeren Liste für jede Spalte
+            // Erstellung einer leeren Liste für jede Spalte
             for (int i = 0; i < spaltenAnzahl; i++) {
                 // Erstellung der Spaltenlisten
                 Spaltendaten.add(new ArrayList<>());
