@@ -1,12 +1,21 @@
-import java.io.FileInputStream;             // Import der Klasse für den Dateizugriff
-import java.util.ArrayList;// Import der Klasse für die ArrayList, um dynamische Arrays zu erstellen
-import java.util.List; // Import der Klasse für die List, um eine Liste von Spalteninhalten zu erstellen
-import org.apache.poi.ss.usermodel.Cell;  //Import der Klasse für den Zugriff auf Zelleninhalte
-import org.apache.poi.ss.usermodel.Row;      // Import der Klasse für den Zugriff auf Zeileninhalte
-import org.apache.poi.ss.usermodel.Sheet;// Import der Klasse für den Zugriff auf Tabellenblätter
-import org.apache.poi.ss.usermodel.Workbook;// Import der Klasse für die Arbeitsmappe
-import org.apache.poi.util.IOUtils;// Import der Klasse für IOUtils, um das ByteArray-Limit zu setzen
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;// Import der Klasse für die Verarbeitung von Excel-Dateien im XLSX-Format
+import java.io.FileInputStream;             
+// Import der Klasse für den Dateizugriff
+import java.util.ArrayList;
+// Import der Klasse für die ArrayList, um dynamische Arrays zu erstellen
+import java.util.List; 
+// Import der Klasse für die List, um eine Liste von Spalteninhalten zu erstellen
+import org.apache.poi.ss.usermodel.Cell;  
+//Import der Klasse für den Zugriff auf Zelleninhalte
+import org.apache.poi.ss.usermodel.Row;      
+// Import der Klasse für den Zugriff auf Zeileninhalte
+import org.apache.poi.ss.usermodel.Sheet;
+// Import der Klasse für den Zugriff auf Tabellenblätter
+import org.apache.poi.ss.usermodel.Workbook;
+// Import der Klasse für die Arbeitsmappe
+import org.apache.poi.util.IOUtils;
+// Import der Klasse für IOUtils, um das ByteArray-Limit zu setzen
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+// Import der Klasse für die Verarbeitung von Excel-Dateien im XLSX-Format
 
 public class Einmalige_Werte_Benchmark {
 
